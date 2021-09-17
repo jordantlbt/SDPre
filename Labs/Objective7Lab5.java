@@ -10,14 +10,17 @@ public class Objective7Lab5 {
       System.out.println("1: Say Hello!");
       System.out.println("2: List my favorite foods");
       System.out.println("3: Exit");
+      System.out.println();
 
       selection = scanner.nextInt();
 
       if(selection == 1) {
         System.out.println("HelloWorld!");
+        System.out.println();
       }
       else if(selection == 2) {
         System.out.println("Apple, Banana, Coconut");
+        System.out.println();
       }
       else{
         break;
